@@ -6,7 +6,6 @@ let btnCloseModal = document.querySelector('.close-modal');
 let btnOpenModal = document.querySelectorAll('.show-modal');
 
 function hide() {
-    // Don't use dot it's only for selector
     modal.classList.remove('hidden');
     overlay.classList.remove('hidden');
 }
