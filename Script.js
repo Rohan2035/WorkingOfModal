@@ -24,7 +24,6 @@ btnCloseModal.addEventListener('click', add);
 
 overlay.addEventListener('click', add);
 
-// Kay Press Event in JavaScript
 document.addEventListener('keydown', function (e) {
     if (e.key == 'Escape') {
         if (
